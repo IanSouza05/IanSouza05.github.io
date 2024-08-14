@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-image: url('img/imagemsite2.png'); /*imagem de fundo */
+    background-image: url('img/imagemsite5.png'); /*imagem de fundo */
     background-size: cover; /* Faz com que a imagem cubra toda a área da tela */
     background-position: center; /* Centraliza a imagem */
     
@@ -16,7 +16,7 @@ body::before {
     background-image: inherit; /* Usa a mesma imagem de fundo */
     background-size: inherit; /* Mantém as propriedades de tamanho */
     background-position: inherit; /* Mantém a posição */
-    filter: blur(6px); /* Aplica o desfoque */
+    filter: blur(4px); /* Aplica o desfoque */
     z-index: -1; /* Mantém o fundo atrás do conteúdo */
 }
 h1 {
